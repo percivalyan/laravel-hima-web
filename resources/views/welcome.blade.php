@@ -128,7 +128,139 @@
     </section>
     <!-- Card -->
 
+
+    <!-- News -->
+    <section id="berita" class="py-5">
+        <div class="container py-4">
+            <div class="header-berita text-center">
+                <h2 class="fw-bold">Berita Kegiatan Organisasi Kami</h2>
+            </div>
+
+            <div class="row py-3">
+                <!-- News #1 -->
+
+                <div class="col-lg-4">
+                    <img src="{{ asset('assets/images/banner-3.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                    <div class="konten-berita">
+                        <p class="mb-3 text-secondary">01/02/2024</p>
+                        <h4 class="fw-bold mb-3">How to Create Diagram with Python</h4>
+                        <p class="text-secondary">#pythonprogramming</p>
+                        <a href="" class="text-docoration-none text-danger">Read All...</a>
+                    </div>
+                    <!-- Baris antar berita, terlihat jika pakai HP -->
+                    <br>
+                </div>
+
+                <!-- News #2 -->
+                <div class="col-lg-4">
+                    <img src="{{ asset('assets/images/banner-2-anime.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                    <div class="konten-berita">
+                        <p class="mb-3 text-secondary">02/02/2024</p>
+                        <h4 class="fw-bold mb-3">Machine Learning and Android Programming</h4>
+                        <p class="text-secondary">#machinelearning #android</p>
+                        <a href="" class="text-docoration-none text-danger">Read All...</a>
+                    </div>
+                    <!-- Baris antar berita, terlihat jika pakai HP -->
+                    <br>
+                </div>
+
+                <!-- News #3 -->
+                <div class="col-lg-4">
+                    <img src="{{ asset('assets/images/banner-1.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                    <div class="konten-berita">
+                        <p class="mb-3 text-secondary">03/02/2024</p>
+                        <h4 class="fw-bold mb-3">How to Create a Responsive Website with Laravel</h4>
+                        <p class="text-secondary">#laravel #responsive</p>
+                        <a href="" class="text-docoration-none text-danger">Read All...</a>
+                    </div>
+                    <!-- Baris antar berita, terlihat jika pakai HP -->
+                    <!-- <br> -->
+                </div>
+
+            </div>
+
+            <div class="footer text-center">
+                <a href="" class="btn btn-outline-danger">Berita Lainnya</a>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- News -->
+
+    <!-- Register -->
+    <section id="join" class="py-5">
+        <div class="container py-5">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="stripe me-2"></div>
+                        <h5>Bergabung Bersama Kami</h5>
+                    </div>
+                    <h1 class="fw-bold mb-2">Lead yourself, show your creativity!</h1>
+                    <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit illum velit rerum nihil voluptate dicta impedit maiores sint totam blanditiis.</p>
+                    <button class="btn btn-outline-danger">
+                        Registrasi
+                    </button>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <img src="{{ asset('assets/images/myriad.jpg') }}" alt="" class="img-fluid img-outline-berita ml-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Register -->
+    <!-- Video -->
+    <!-- <section id="video" class="py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DST5W8I-EjY?si=gCC9HDE3pqHAdKeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section> -->
+    <!-- Video -->
+
+    <section id="youtube_video" class="py-5">
+        <div class="container py-5">
+            <div class="header-berita text-center">
+                <h2 class="fw-bold">Video Kegiatan Organisasi Kami</h2>
+            </div>
+
+            <div class="row py-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <iframe width="100%" height="215" src="https://www.youtube.com/embed/DST5W8I-EjY?si=gCC9HDE3pqHAdKeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4">
+                        <iframe width="100%" height="215" src="https://www.youtube.com/embed/9S4IeXEFJXY?si=eHOvmjK6hAS6BuXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4">
+                        <iframe width="100%" height="215" src="https://www.youtube.com/embed/fkU7TEy6mTw?si=8OfW1vG4HptvoLYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-berita text-center">
+                <a href="https://www.youtube.com/@himtifunpam9658" class="btn btn-outline-danger">Lihat Video Lain di Kanal Kami</a>
+            </div>
+        </div>
+    </section>
+
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script>
+        const navbar = document.querySelector(".fixed-top");
+        window.onscroll = () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add("scroll-nav-active");
+                navbar.classList.add("text-nav-active");
+                navbar.classList.remove("navbar-dark");
+            } else {
+                navbar.classList.remove("scroll-nav-active");
+                navbar.classList.add("navbar-dark");
+            }
+        };
+    </script>
 
 </body>
 

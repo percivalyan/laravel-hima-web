@@ -4,6 +4,7 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+/* Pengaturan Tombol Warna Merah */
 .btn-danger{
     background-color: red;
     border-radius: 10px;
@@ -11,6 +12,17 @@ body{
     padding: 6px 40px;
     color: white;
 }
+/* Pengaturan Tombol Warna Merah */
+
+/* Pengaturan Tombol Outline Warna Merah Pada Bagian Menu Berita*/
+.btn-outline-danger{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: red;
+    padding: 6px 40px;
+    color: red;
+}
+/* Pengaturan Tombol Outline Warna Merah Pada Bagian Menu Berita*/
 
 /* Navbar */
 .nav-item .nav-link{
@@ -19,6 +31,17 @@ body{
     margin-right: 5px;
 }
 /* Navbar */
+
+/* Menghilangkan Navbar ketika scroll ke bawah */
+.scroll-nav-active{
+    background-color: white;
+    border-bottom: 1px solid red;
+}
+
+.text-nav-active{
+    color: black;
+}
+/* Menghilangkan Navbar ketika scroll ke bawah */
 
 #hero{
     background-image: url("../../assets/images/banner-2-anime.jpg");
@@ -36,3 +59,34 @@ body{
     font-size: 55px;
     font-weight: 600;
 }
+
+/* Memberikan Efek Blur Pada Bagian Preview Berita */
+.img-outline-berita {
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3); /* Ukuran dan warna shadow */
+    border-radius: 10px; /* Atur sesuai dengan border-radius gambar */
+    overflow: hidden; /* Penting untuk memastikan shadow terpotong sesuai dengan border-radius */
+}
+
+.img-outline-berita img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Memberikan Efek Blur Pada Bagian Preview Berita */
+
+.stripe{
+    height: 5px;
+    width: 20px;
+    background-color: red;
+}
+
+/* Pengaturan Video */
+/* #video{
+    background-image: url("../../assets/images/ab-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+} */
+/* Pengaturan Video */
