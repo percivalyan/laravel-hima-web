@@ -48,7 +48,7 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn btn-danger">Registrasi</button>
+                    <button class="btn btn-danger">Login</button>
                 </form>
             </div>
         </div>
@@ -59,10 +59,10 @@
         <div class=" container text-center text-white">
             <div class="hero-title">
                 <div class="hero-text">
-                    Selamat Datang <Br> Di Website Resmi Reinas
+                    Selamat Datang <br> Di Website Himpunan Mahasiswa <br> Teknik Informatika Universitas Pamulang
                 </div>
-                <h6>~Reach the Heaven, Peach to Heaven, Stairway to Heaven, and Heaven Feels~</h6><br>
-                <button class="btn btn-danger">Lihat Event Kami</button>
+                <h6>Web dokumentasi kegiatan himpunan mahasiswa dalam lingkungan kampus</h6><br>
+                <!-- <button class="btn btn-danger">Lihat Event Kami</button> -->
             </div>
         </div>
     </section>
