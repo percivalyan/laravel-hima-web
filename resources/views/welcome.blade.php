@@ -295,6 +295,103 @@
         </div>
     </section>
 
+    <section id="footer" class="bg-white">
+        <div class="container py-4">
+            <footer>
+                <div class="row">
+                    <!-- Kolom 1 Navigasi -->
+                    <div class="col-12 col-md-3 mb-3">
+                        <h5 class="fw-bold mb-3">Navigasi</h5>
+                        <div class="d-flex">
+                            <ul class="nav flex-column me-5">
+                                <li class="nav-items mb-2">
+                                    <a href="" class="nav-link p-0 text-muted">Berita Himpunan</a>
+                                </li>
+
+                                <li class="nav-items mb-2">
+                                    <a href="" class="nav-link p-0 text-muted">Prestasi Himpunan</a>
+                                </li>
+
+                                <li class="nav-items mb-2">
+                                    <a href="" class="nav-link p-0 text-muted">Gallery Himpunan</a>
+                                </li>
+
+                                <li class="nav-items mb-2">
+                                    <a href="" class="nav-link p-0 text-muted">Video Himpunan</a>
+                                </li>
+                            </ul>
+
+                            <ul class="nav flex-column">
+                                <li class="nav-items mb-2">
+                                    <a href="" class="nav-link p-0 text-muted">Civitas Kampus</a>
+                                </li>
+                                <li class="nav-items mb-2">
+                                    <a href="" class="nav-link p-0 text-muted">Demisioner</a>
+                                </li>
+                                <li class="nav-items mb-2">
+                                    <a href="" class="nav-link p-0 text-muted">Kepengurusan</a>
+                                </li>
+                                <li class="nav-items mb-2">
+                                    <a href="" class="nav-link p-0 text-muted">Keanggotaan</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Kolom 2 Media Sosial-->
+                    <div class="col-12 col-md-3 mb-3">
+                        <h5 class="fw-bold mb-3">Ikuti Kami</h5>
+                        <div class="d-flex mb-3">
+                            <a href="" target="" class="text-decoration-none text-dark">
+                                <img src="{{ asset('assets/icons/fb.png') }}" alt="" height="38" width="38" class="me-4">
+                            </a>
+                            <a href="" target="" class="text-decoration-none text-dark">
+                                <img src="{{ asset('assets/icons/x.png') }}" alt="" height="38" width="38" class="me-4">
+                            </a>
+                            <a href="" target="" class="text-decoration-none text-dark">
+                                <img src="{{ asset('assets/icons/ig.png') }}" alt="" height="38" width="38" class="me-4">
+                            </a>
+                            <a href="" target="" class="text-decoration-none text-dark">
+                                <img src="{{ asset('assets/icons/yt.png') }}" alt="" height="38" width="auto" class="me-4">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Kolom 3 Kontak -->
+                    <div class="col-12 col-md-3 mb-3">
+                        <h5 class="font-inter fw-bold mb-3">Kontak Kami</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">info@himpunan.sch.id</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">+62 xx xxx xxx</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">+62 xx xxx xxx</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Kolom 4 Alamat -->
+                    <div class="col-12 col-md-3 mb-3">
+                        <h5 class="font-inter fw-bold mb-3">Alamat Sekretariat</h5>
+                        <p> Jl. Raya Kota, No. 123, Pamulang, Tangerang Selatan. </p>
+                    </div>
+
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <section class="bg-light border-top">
+        <div class="container py-4">
+            <div class="d-flex justify-content-between">
+                <div>Himpunan Mahasiswa</div>
+            </div>
+            <div class="d-flex">
+                <p class="me-4">Syarat & Ketentuan</p>
+                <p>
+                    <a href="" class="text-decoration-none text-dark">Kebijakan Privasi</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 

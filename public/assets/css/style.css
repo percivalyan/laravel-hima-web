@@ -91,7 +91,7 @@ body{
 } */
 /* Pengaturan Video */
 
-/* Paralax Background */
+/* Paralax Background Bagian Prestasi*/
 .section-foto{
     background-attachment: fixed;
     background-position: top;
@@ -121,8 +121,7 @@ body{
     padding: 6px 40px;
     color: #fff;
 } */
-/* Paralax Background */
-
+/* Paralax Background Bagian Prestasi*/
 
 /* Memberikan Efek Blur Pada Bagian Preview Prestasi */
 .img-outline-prestasi {
