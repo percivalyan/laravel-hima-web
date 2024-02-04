@@ -61,6 +61,39 @@ body{
     font-weight: 600;
 }
 
+/* Respomsive Layar Kecil 200 */
+@media screen and (min-width: 200px){
+    .hero-text{
+    font-size: 22px;
+    font-weight: 600;
+}
+}
+
+/* Respomsive Layar Kecil 350 */
+@media screen and (min-width: 350px){
+    .hero-text{
+    font-size: 30px;
+    font-weight: 600;
+}
+}
+
+/* Respomsive Layar Kecil 400 */
+@media screen and (min-width: 400px){
+    .hero-text{
+    font-size: 40px;
+    font-weight: 600;
+}
+}
+
+/* Respomsive Layar Kecil 550*/
+@media screen and (min-width: 550px){
+    .hero-text{
+    font-size: 45px;
+    font-weight: 600;
+}
+}
+
+
 /* Memberikan Efek Blur Pada Bagian Preview Berita */
 .img-outline-berita {
     box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3); /* Ukuran dan warna shadow */
