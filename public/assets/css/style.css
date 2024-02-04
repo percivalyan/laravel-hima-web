@@ -35,7 +35,8 @@ body{
 /* Menghilangkan Navbar ketika scroll ke bawah */
 .scroll-nav-active{
     background-color: white;
-    border-bottom: 1px solid red;
+    /* border-bottom: 1px solid red; */
+    box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.08);
 }
 
 .text-nav-active{
