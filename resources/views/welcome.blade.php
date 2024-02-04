@@ -68,41 +68,50 @@
     </section>
 
     <!-- Card -->
-    <section id="program" style="margin-top: -45px">
+    <!-- <section id="program" style="margin-top: -45px">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-3">
                     <div class="bg-white rounded-3 shadow p-3 d-flex justify-content-between align-items-center">
                         <div>
-                            <h5>Departemen HUMAS</h5>
+                            <h5>HIMTIF FANTASTIC</h5>
                         </div>
-                        <img src="{{ asset('assets/images/card-seni-2.png') }}" height="55" width="55" alt="">
+                        <img src="{{ asset('assets/icons/cal.png') }}" height="55" width="55" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3">
                     <div class="bg-white rounded-3 shadow p-3 d-flex justify-content-between align-items-center">
                         <div>
-                            <h5>Departemen MINFO</h5>
+                            <h5>PROGRAMMING COURSE</h5>
                         </div>
-                        <img src="{{ asset('assets/images/card-seni-2.png') }}" height="55" width="55" alt="">
+                        <img src="{{ asset('assets/icons/programming.png') }}" height="55" width="55" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3">
                     <div class="bg-white rounded-3 shadow p-3 d-flex justify-content-between align-items-center">
                         <div>
-                            <h5>Departemen PSDA</h5>
+                            <h5>RUANG DISKUSI HIMTIF</h5>
                         </div>
-                        <img src="{{ asset('assets/images/card-seni-2.png') }}" height="55" width="55" alt="">
+                        <img src="{{ asset('assets/icons/dis.png') }}" height="55" width="55" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="bg-white rounded-3 shadow p-3 d-flex justify-content-between align-items-center">
+                        <div>
+                            <h5>HIMTIF WEKKLY SPORT</h5>
+                        </div>
+                        <img src="{{ asset('assets/icons/sport.png') }}" height="55" width="55" alt="">
                     </div>
                 </div>
 
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="program" style="margin-top: 20px">
+    <!-- <section id="program" style="margin-top: 20px">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-3">
@@ -123,11 +132,9 @@
                     </div>
                 </div>
 
-
             </div>
-    </section>
+    </section> -->
     <!-- Card -->
-
 
     <!-- News -->
     <section id="berita" class="py-5">
@@ -268,7 +275,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-6">
-                    <img src="{{ asset('assets/images/anime-vibe-02.jpg') }}" alt="" class="img-fluid img-outline-prestasi">
+                    <img src="{{ asset('assets/images/anime-vibe-05.jpg') }}" alt="" class="img-fluid img-outline-prestasi">
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-6">
@@ -278,6 +285,7 @@
                 <div class="col-lg-3 col-md-6 col-6">
                     <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi">
                 </div>
+
             </div>
         </div>
     </section>
@@ -382,12 +390,12 @@
         <div class="container py-4">
             <div class="d-flex justify-content-between">
                 <div>Himpunan Mahasiswa</div>
-            </div>
-            <div class="d-flex">
-                <p class="me-4">Syarat & Ketentuan</p>
-                <p>
-                    <a href="" class="text-decoration-none text-dark">Kebijakan Privasi</a>
-                </p>
+                <div class="d-flex">
+                    <p class="me-4">Syarat & Ketentuan</p>
+                    <p>
+                        <a href="" class="text-decoration-none text-dark">Kebijakan Privasi</a>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
