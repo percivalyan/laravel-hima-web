@@ -210,6 +210,7 @@
         </div>
     </section>
     <!-- Register -->
+
     <!-- Video -->
     <!-- <section id="video" class="py-5">
         <div class="container py-5">
@@ -220,6 +221,7 @@
     </section> -->
     <!-- Video -->
 
+    <!-- Video -->
     <section id="youtube_video" class="py-5">
         <div class="container py-5">
             <div class="header-berita text-center">
@@ -245,6 +247,54 @@
             </div>
         </div>
     </section>
+    <!-- Video -->
+
+    <section id="foto" class="section-foto parallax">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <div>
+                    <div class="stripe-putih"></div>
+                    <h5 class="fw-bold text-white">Aktivitas Organisasi Kami</h5>
+                </div>
+                <div>
+                    <!-- Memperbaiki atribut href dengan URL yang sesuai -->
+                    <a href="link-ke-galeri-lainnya.html" class="btn btn-outline-light">Dokumentasi Lain</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <img src="{{ asset('assets/images/anime-vibe-01.jpg') }}" alt="" class="img-fluid img-outline-prestasi">
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <img src="{{ asset('assets/images/anime-vibe-02.jpg') }}" alt="" class="img-fluid img-outline-prestasi">
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <img src="{{ asset('assets/images/anime-vibe-03.jpg') }}" alt="" class="img-fluid img-outline-prestasi">
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prestasi" class="py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <h3 class="fw-bold">Prestasi Organisasi</h3>
+            </div>
+            <img src="{{ asset('assets/images/anime-light-02.jpg') }}" alt="" class="img-fluid py-5">
+
+            <div class="text-center">
+                <a href="" class="btn btn-outline-danger">Lihat Prestasi Lain</a>
+            </div>
+        </div>
+    </section>
+
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
