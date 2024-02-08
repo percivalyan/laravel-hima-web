@@ -35,7 +35,6 @@ body{
 /* Menghilangkan Navbar ketika scroll ke bawah */
 .scroll-nav-active{
     background-color: white;
-    /* border-bottom: 1px solid red; */
     box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.08);
 }
 
@@ -44,6 +43,21 @@ body{
 }
 /* Menghilangkan Navbar ketika scroll ke bawah */
 
+/* Navbar Khusus Mode selain Desktop*/
+@media (max-width: 991.98px) {
+    .navbar {
+        display: none !important; /* Menghilangkan navbar */
+    }
+}
+
+/* Gaya untuk navbar pada mode selain desktop */
+@media (min-width: 992px) {
+    .navbar-mobile {
+        display: none; /* Sembunyikan navbar mobile */
+    }
+}
+/* Navbar Khusus Mode selain Desktop*/
+
 #hero{
     background-image: url("../../assets/images/banner-2-anime.jpg");
     background-repeat: no-repeat;
@@ -51,6 +65,14 @@ body{
     background-position: center;
     height: 800px;
 }
+
+/* Pengaturan hero dalam mode selain desktop */
+@media only screen and (max-width: 991px) {
+   .hero-text{
+        margin-top: -80px;
+   }
+}
+/* Pengaturan hero dalam mode selain desktop */
 
 .hero-title{
     padding-top: 250px;
@@ -171,5 +193,3 @@ body{
 }
 /* Memberikan Efek Blur Pada Bagian Preview Prestasi */
 
-/* Departemen */
- 

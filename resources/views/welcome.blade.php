@@ -55,6 +55,41 @@
     </nav>
     <!-- Navbar -->
 
+    <!-- Navbar untuk mode selain desktop -->
+    <nav class="navbar-mobile navbar-dark py-3 fixed-top bg-danger">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentMobile" aria-controls="navbarSupportedContentMobile" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContentMobile">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Prestasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Kontak</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-danger">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
     <section id="hero" class="px-0">
         <div class=" container text-center text-white">
             <div class="hero-title">
@@ -62,13 +97,12 @@
                     Selamat Datang <br> Di Website Himpunan Mahasiswa <br> Teknik Informatika Universitas Pamulang
                 </div>
                 <h6>Web dokumentasi kegiatan himpunan mahasiswa dalam lingkungan kampus</h6><br>
-                <!-- <button class="btn btn-danger">Lihat Event Kami</button> -->
             </div>
         </div>
     </section>
 
     <!-- Card -->
-    <!-- <section id="program" style="margin-top: -45px">
+    <section id="program" style="margin-top: -45px">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-3">
@@ -101,7 +135,7 @@
                 <div class="col-lg-3">
                     <div class="bg-white rounded-3 shadow p-3 d-flex justify-content-between align-items-center">
                         <div>
-                            <h5>HIMTIF WEKKLY SPORT</h5>
+                            <h5>HIMTIF SPORT</h5>
                         </div>
                         <img src="{{ asset('assets/icons/sport.png') }}" height="55" width="55" alt="">
                     </div>
@@ -109,7 +143,7 @@
 
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- <section id="program" style="margin-top: 20px">
         <div class="container">
@@ -307,78 +341,41 @@
         <div class="container py-4">
             <footer>
                 <div class="row">
-                    <!-- Kolom 1 Navigasi -->
-                    <div class="col-12 col-md-3 mb-3">
-                        <h5 class="fw-bold mb-3">Navigasi</h5>
+                    <!-- Kolom 1 Media Sosial-->
+                    <div class="col-12 col-md-4 mb-4">
+                        <h5 class="fw-bold mb-3">Ikuti Kami</h5>
                         <div class="d-flex">
-                            <ul class="nav flex-column me-5">
-                                <li class="nav-items mb-2">
-                                    <a href="" class="nav-link p-0 text-muted">Berita Himpunan</a>
-                                </li>
-
-                                <li class="nav-items mb-2">
-                                    <a href="" class="nav-link p-0 text-muted">Prestasi Himpunan</a>
-                                </li>
-
-                                <li class="nav-items mb-2">
-                                    <a href="" class="nav-link p-0 text-muted">Gallery Himpunan</a>
-                                </li>
-
-                                <li class="nav-items mb-2">
-                                    <a href="" class="nav-link p-0 text-muted">Video Himpunan</a>
-                                </li>
-                            </ul>
-
                             <ul class="nav flex-column">
                                 <li class="nav-items mb-2">
-                                    <a href="" class="nav-link p-0 text-muted">Civitas Kampus</a>
+                                    <a href="" class="nav-link p-0 text-muted">Instagram</a>
                                 </li>
                                 <li class="nav-items mb-2">
-                                    <a href="" class="nav-link p-0 text-muted">Demisioner</a>
+                                    <a href="" class="nav-link p-0 text-muted">Facebook</a>
                                 </li>
                                 <li class="nav-items mb-2">
-                                    <a href="" class="nav-link p-0 text-muted">Kepengurusan</a>
+                                    <a href="" class="nav-link p-0 text-muted">YouTube</a>
                                 </li>
                                 <li class="nav-items mb-2">
-                                    <a href="" class="nav-link p-0 text-muted">Keanggotaan</a>
+                                    <a href="" class="nav-link p-0 text-muted">LinkedIn</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Kolom 2 Media Sosial-->
-                    <div class="col-12 col-md-3 mb-3">
-                        <h5 class="fw-bold mb-3">Ikuti Kami</h5>
-                        <div class="d-flex mb-3">
-                            <a href="" target="" class="text-decoration-none text-dark">
-                                <img src="{{ asset('assets/icons/fb.png') }}" alt="" height="38" width="38" class="me-4">
-                            </a>
-                            <a href="" target="" class="text-decoration-none text-dark">
-                                <img src="{{ asset('assets/icons/x.png') }}" alt="" height="38" width="38" class="me-4">
-                            </a>
-                            <a href="" target="" class="text-decoration-none text-dark">
-                                <img src="{{ asset('assets/icons/ig.png') }}" alt="" height="38" width="38" class="me-4">
-                            </a>
-                            <a href="" target="" class="text-decoration-none text-dark">
-                                <img src="{{ asset('assets/icons/yt.png') }}" alt="" height="38" width="auto" class="me-4">
-                            </a>
-                        </div>
+                    <!-- Kolom 3 Alamat -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <h5 class="font-inter fw-bold mb-3">Alamat Sekretariat</h5>
+                        <p> Jl. Raya Kota, No. 123, Pamulang, Tangerang Selatan. </p>
                     </div>
 
-                    <!-- Kolom 3 Kontak -->
-                    <div class="col-12 col-md-3 mb-3">
+                    <!-- Kolom 2 Kontak -->
+                    <div class="col-12 col-md-4 mb-4">
                         <h5 class="font-inter fw-bold mb-3">Kontak Kami</h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">info@himpunan.sch.id</a></li>
-                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">+62 xx xxx xxx</a></li>
-                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">+62 xx xxx xxx</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">+62 xx xxx xxx (WhatsApp)</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">+62 xx xxx xxx (WhatsApp)</a></li>
                         </ul>
-                    </div>
-
-                    <!-- Kolom 4 Alamat -->
-                    <div class="col-12 col-md-3 mb-3">
-                        <h5 class="font-inter fw-bold mb-3">Alamat Sekretariat</h5>
-                        <p> Jl. Raya Kota, No. 123, Pamulang, Tangerang Selatan. </p>
                     </div>
 
                 </div>
@@ -389,7 +386,7 @@
     <section class="bg-light border-top">
         <div class="container py-4">
             <div class="d-flex justify-content-between">
-                <div>Himpunan Mahasiswa</div>
+                <div>Himpunan Mahasiswa Tekmik Informatika (HTMTIF)</div>
                 <div class="d-flex">
                     <p class="me-4">Syarat & Ketentuan</p>
                     <p>
