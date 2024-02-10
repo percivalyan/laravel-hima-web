@@ -35,7 +35,8 @@ body{
 /* Menghilangkan Navbar ketika scroll ke bawah */
 .scroll-nav-active{
     background-color: white;
-    box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.08);
+    /* border-bottom: 1px solid red; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
 }
 
 .text-nav-active{
@@ -56,7 +57,13 @@ body{
         display: none; /* Sembunyikan navbar mobile */
     }
 }
+
+.navbar-mobile {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08); /* Ubah nilai sesuai preferensi Anda */
+}
+
 /* Navbar Khusus Mode selain Desktop*/
+
 
 #hero{
     background-image: url("../../assets/images/banner-2-anime.jpg");
@@ -65,6 +72,8 @@ body{
     background-position: center;
     height: 800px;
 }
+
+
 
 /* Pengaturan hero dalam mode selain desktop */
 @media only screen and (max-width: 991px) {
