@@ -132,7 +132,7 @@
         </div>
 
         <div class="footer text-center">
-            <a href="" class="btn btn-outline-danger" data-aos="fade-down">Berita Lainnya</a>
+            <a href="/berita" class="btn btn-outline-danger" data-aos="fade-down">Berita Lainnya</a>
         </div>
 
 
@@ -201,7 +201,8 @@
 </section>
 <!-- Video -->
 
-<section id="foto" class="section-foto parallax">
+{{-- Foto --}}
+<section id="foto" class="section-foto parallax" data-aos="zoom-in-up">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-5">
             <div>
@@ -210,30 +211,38 @@
             </div>
             <div>
                 <!-- Memperbaiki atribut href dengan URL yang sesuai -->
-                <a href="link-ke-galeri-lainnya.html" class="btn btn-outline-light" data-aos="fade-down">Dokumentasi Lain</a>
+                <a href="/foto" class="btn btn-outline-light" data-aos="fade-down">Dokumentasi Lain</a>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-6">
-                <img src="{{ asset('assets/images/anime-vibe-01.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
-            </div>
+       <div class="row">
+           <div class="col-lg-3 col-md-6 col-6">
+               <a href="{{ asset('assets/images/anime-vibe-01.jpg') }}" class="image-link">
+                   <img src="{{ asset('assets/images/anime-vibe-01.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
+               </a>
+           </div>
 
-            <div class="col-lg-3 col-md-6 col-6">
-                <img src="{{ asset('assets/images/anime-vibe-05.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
-            </div>
+           <div class="col-lg-3 col-md-6 col-6">
+               <a href="{{ asset('assets/images/anime-vibe-05.jpg') }}" class="image-link">
+                   <img src="{{ asset('assets/images/anime-vibe-05.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
+               </a>
+           </div>
 
-            <div class="col-lg-3 col-md-6 col-6">
-                <img src="{{ asset('assets/images/anime-vibe-03.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
-            </div>
+           <div class="col-lg-3 col-md-6 col-6">
+               <a href="{{ asset('assets/images/anime-vibe-03.jpg') }}" class="image-link">
+                   <img src="{{ asset('assets/images/anime-vibe-03.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
+               </a>
+           </div>
 
-            <div class="col-lg-3 col-md-6 col-6">
-                <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
-            </div>
-
-        </div>
+           <div class="col-lg-3 col-md-6 col-6">
+               <a href="{{ asset('assets/images/anime-vibe-04.jpg') }}" class="image-link">
+                   <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
+               </a>
+           </div>
+       </div>
     </div>
 </section>
+
 
 <section id="prestasi" class="py-5">
     <div class="container py-5">

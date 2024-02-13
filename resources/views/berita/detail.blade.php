@@ -1,7 +1,8 @@
 @extends('layouts.layouts')
 
 @section('content')
-<section id="detail" class="py-5" style="margin-top: 100px">
+<section id="detail" class="py-5" style="margin-top: 20px">
+    {{-- Dari 100px ganti ke 20px --}}
 <div class="container col-xxl-8">
     <div class="mb-3">
         Home / Berita / How to Create Diagram with Python

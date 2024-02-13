@@ -9,12 +9,17 @@
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+
+    {{-- AOS --}}
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    {{-- Magnific --}}
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific.css') }}">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
-
 </head>
 
 <body>
@@ -92,10 +97,16 @@
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+
+    <script src="{{ asset('assets/js/magnific.js') }}"></script>
+
     <script>
         const navbar = document.querySelector(".fixed-top");
         window.onscroll = () => {
-            if (window.scrollY > 100) {
+            if (window.scrollY > 50) {
+                // 100 ganti ke 50
                 navbar.classList.add("scroll-nav-active");
                 navbar.classList.add("text-nav-active");
                 navbar.classList.remove("navbar-dark");
@@ -106,6 +117,29 @@
         };
 
         AOS.init();
+
+        // Magnific
+// Magnific
+$(document).ready(function() {
+    $('.image-link').magnificPopup({
+        type: 'image',
+        retina: {
+            ratio: 1,
+            replaceSrc: function(item, ratio) {
+                return item.src.replace(/\.\w+$/, function(m) {
+                    return '@2x' + m;
+                });
+            }
+        },
+        callbacks: {
+            open: function() {
+                // Append close button inside magnific popup
+                this.content.append('<button title="Close (Esc)" type="button" class="mfp-close">×</button>');
+            }
+        }
+    });
+});
+
     </script>
 
 </body>

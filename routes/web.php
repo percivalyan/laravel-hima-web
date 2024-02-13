@@ -17,10 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Berita
 Route::get('/berita', function () {
     return view('berita.berita');
 });
 
 Route::get('/detail', function () {
     return view('berita.detail');
+});
+
+// Foto
+Route::get('/foto', function () {
+    return view('foto.foto');
 });
