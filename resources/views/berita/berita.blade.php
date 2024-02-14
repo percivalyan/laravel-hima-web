@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- News -->
-<section id="berita" style="margin-top: 20px" class="py-5">
+<section id="berita" style="margin-top: 100px" class="py-5">
     <div class="container py-4">
         <div class="header-berita text-center">
             <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>

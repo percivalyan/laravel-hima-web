@@ -1,6 +1,7 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg py-3 fixed-top navbar-dark {{ Request::segment(1) == '' ? '' : 'bg-transparant'}}">
+<nav class="navbar navbar-expand-lg py-3 fixed-top bg-white shadow {{ Request::segment(1) == '' ? '' : 'bg-white shadow'}}">
     {{-- from "bg-white shadow" --}}
+    {{-- navbar-dark --}}
     <div class="container">
         <a class="navbar-brand" href="#" data-aos="fade-up" data-aos-anchor-placement="top-center">
             <img src="{{ asset('assets/icons/icon.ico') }}" height="55" width="55" alt="">

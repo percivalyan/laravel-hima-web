@@ -143,6 +143,9 @@
 <!-- Register -->
 <section id="join" class="py-5">
     <div class="container py-5">
+        <div class="header-berita text-center">
+            <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
+        </div>
         <div class="row d-flex align-items-center">
             <div class="col-lg-6">
                 <div class="d-flex align-items-center mb-3" data-aos="fade-down">
@@ -162,7 +165,6 @@
     </div>
 </section>
 <!-- Register -->
-
 <!-- Video -->
 <!-- <section id="video" class="py-5">
         <div class="container py-5">

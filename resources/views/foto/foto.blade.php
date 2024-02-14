@@ -51,11 +51,9 @@
                     <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
                 </a>
             </div>
-
             <div>
-                <p class="" style="margin-top: 30px" data-aos="flip-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique minus quae, qui aliquid officiis, quo nobis earum omnis sequi nulla recusandae nam aliquam assumenda enim neque illo eius ducimus.</p>
+                <p class="" style="margin-top: 30px; font-size: 12px;" data-aos="flip-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique minus quae, qui aliquid officiis, quo nobis earum omnis sequi nulla recusandae nam aliquam assumenda enim neque illo eius ducimus.</p>
             </div>
-            
         </div>
     </div>
 </section>
@@ -94,11 +92,9 @@
                     <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
                 </a>
             </div>
-
             <div>
-                <p class="" style="margin-top: 30px" data-aos="flip-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique minus quae, qui aliquid officiis, quo nobis earum omnis sequi nulla recusandae nam aliquam assumenda enim neque illo eius ducimus.</p>
+                <p class="" style="margin-top: 30px; font-size: 12px;" data-aos="flip-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique minus quae, qui aliquid officiis, quo nobis earum omnis sequi nulla recusandae nam aliquam assumenda enim neque illo eius ducimus.</p>
             </div>
-
         </div>
     </div>
 </section>
@@ -110,7 +106,7 @@
         <div class="d-flex justify-content-between align-items-center mb-5">
             <div>
                 <div class="stripe-putih"></div>
-                <h5 class="fw-bold text-white" data-aos="fade-down">HIMTF Programming Cource - HPC</h5>
+                <h5 class="fw-bold text-white" data-aos="fade-down">HIMTF Programming Course - HPC</h5>
             </div>
             <div>
                 <a href="/foto" class="btn btn-outline-light" data-aos="fade-down">Unduh Dokumentasi</a>
@@ -137,11 +133,9 @@
                     <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
                 </a>
             </div>
-
             <div>
-                <p class="" style="margin-top: 30px" data-aos="flip-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique minus quae, qui aliquid officiis, quo nobis earum omnis sequi nulla recusandae nam aliquam assumenda enim neque illo eius ducimus.</p>
+                <p class="" style="margin-top: 30px; font-size: 12px;" data-aos="flip-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique minus quae, qui aliquid officiis, quo nobis earum omnis sequi nulla recusandae nam aliquam assumenda enim neque illo eius ducimus.</p>
             </div>
-
         </div>
     </div>
 </section>
@@ -180,11 +174,9 @@
                     <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
                 </a>
             </div>
-
             <div>
-                <p class="" style="margin-top: 30px" data-aos="flip-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique minus quae, qui aliquid officiis, quo nobis earum omnis sequi nulla recusandae nam aliquam assumenda enim neque illo eius ducimus.</p>
+                <p class="" style="margin-top: 30px; font-size: 12px;" data-aos="flip-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique minus quae, qui aliquid    officiis, quo nobis earum omnis sequi nulla recusandae nam aliquam assumenda enim neque illo eius ducimus.</p>
             </div>
-
         </div>
     </div>
 </section>
