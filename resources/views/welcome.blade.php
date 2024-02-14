@@ -51,7 +51,6 @@
                     <img src="{{ asset('assets/icons/sport.png') }}" height="55" width="55" alt="">
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -128,20 +127,77 @@
                 <!-- Baris antar berita, terlihat jika pakai HP -->
                 <!-- <br> -->
             </div>
-
         </div>
-
         <div class="footer text-center">
             <a href="/berita" class="btn btn-outline-danger" data-aos="fade-down">Berita Lainnya</a>
         </div>
-
-
     </div>
 </section>
 <!-- News -->
 
+<!-- Card -->
+<section id="program" class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="header-berita text-center">
+                <h2 class="fw-bold py-5" data-aos="fade-down">Departemen Kami</h2>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-up">
+                <div class="bg-white rounded-3 shadow p-3 mb-2 d-flex flex-column justify-content-center align-items-center">
+                    <img src="{{ asset('assets/icons/cal.png') }}" height="55" width="55" alt="" style="margin-bottom: 10px;">
+                    <div style="text-align: center;">
+                        <p style="margin: 0; font-size: 18px;">HIMTIF FANTASTIC</p>
+                        <p style="font-size: 12px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet distinctio quia ducimus maxime tempora accusamus, qui quisquam nisi sunt reprehenderit ratione porro doloribus labore! Molestiae rerum minus magnam nesciunt atque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-up">
+                <div class="bg-white rounded-3 shadow p-3 mb-2 d-flex flex-column justify-content-center align-items-center">
+                    <img src="{{ asset('assets/icons/cal.png') }}" height="55" width="55" alt="" style="margin-bottom: 10px;">
+                    <div style="text-align: center;">
+                        <p style="margin: 0; font-size: 18px;">HIMTIF FANTASTIC</p>
+                        <p style="font-size: 12px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet distinctio quia ducimus maxime tempora accusamus, qui quisquam nisi sunt reprehenderit ratione porro doloribus labore! Molestiae rerum minus magnam nesciunt atque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-up">
+                <div class="bg-white rounded-3 shadow p-3 mb-2 d-flex flex-column justify-content-center align-items-center">
+                    <img src="{{ asset('assets/icons/cal.png') }}" height="55" width="55" alt="" style="margin-bottom: 10px;">
+                    <div style="text-align: center;">
+                        <p style="margin: 0; font-size: 18px;">HIMTIF FANTASTIC</p>
+                        <p style="font-size: 12px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet distinctio quia ducimus maxime tempora accusamus, qui quisquam nisi sunt reprehenderit ratione porro doloribus labore! Molestiae rerum minus magnam nesciunt atque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center py-3">
+            <div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-up">
+                <div class="bg-white rounded-3 shadow p-3 mb-2 d-flex flex-column justify-content-center align-items-center">
+                    <img src="{{ asset('assets/icons/cal.png') }}" height="55" width="55" alt="" style="margin-bottom: 10px;">
+                    <div style="text-align: center;">
+                        <p style="margin: 0; font-size: 18px;">HIMTIF FANTASTIC</p>
+                        <p style="font-size: 12px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet distinctio quia ducimus maxime tempora accusamus, qui quisquam nisi sunt reprehenderit ratione porro doloribus labore! Molestiae rerum minus magnam nesciunt atque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-up">
+                <div class="bg-white rounded-3 shadow p-3 mb-2 d-flex flex-column justify-content-center align-items-center">
+                    <img src="{{ asset('assets/icons/cal.png') }}" height="55" width="55" alt="" style="margin-bottom: 10px;">
+                    <div style="text-align: center;">
+                        <p style="margin: 0; font-size: 18px;">HIMTIF FANTASTIC</p>
+                        <p style="font-size: 12px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet distinctio quia ducimus maxime tempora accusamus, qui quisquam nisi sunt reprehenderit ratione porro doloribus labore! Molestiae rerum minus magnam nesciunt atque.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tambahkan satu kolom lagi di sini -->
+        </div>
+    </div>
+</section>
+
+
 <!-- Register -->
-<section id="join" class="py-5">
+{{-- <section id="join" class="py-5">
     <div class="container py-5">
         <div class="header-berita text-center">
             <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
@@ -163,7 +219,8 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+
 <!-- Register -->
 <!-- Video -->
 <!-- <section id="video" class="py-5">
@@ -176,6 +233,90 @@
 <!-- Video -->
 
 <!-- Video -->
+{{-- <section id="youtube_video" class="py-5">
+    <div class="container py-5">
+        <div class="header-berita text-center">
+            <h2 class="fw-bold" data-aos="fade-down">Video Kegiatan Organisasi Kami</h2>
+        </div>
+
+        <div class="row py-5" data-aos="flip-down">
+            <div class="row">
+                <div class="col-lg-4">
+                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/DST5W8I-EjY?si=gCC9HDE3pqHAdKeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4">
+                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/9S4IeXEFJXY?si=eHOvmjK6hAS6BuXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4">
+                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/fkU7TEy6mTw?si=8OfW1vG4HptvoLYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-berita text-center">
+            <a href="https://www.youtube.com/@himtifunpam9658" class="btn btn-outline-danger" data-aos="fade-down">Lihat Video Lain di Kanal Kami</a>
+        </div>
+    </div>
+</section> --}}
+<!-- Video -->
+
+{{-- Foto --}}
+<section id="foto" class="section-foto parallax" style="margin-top: 100px" data-aos="zoom-in-up">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+            <div>
+                <div class="stripe-putih"></div>
+                <h5 class="fw-bold text-white" data-aos="fade-down">Aktivitas Organisasi Kami</h5>
+            </div>
+            <div>
+                <!-- Memperbaiki atribut href dengan URL yang sesuai -->
+                <a href="/foto" class="btn btn-outline-light" data-aos="fade-down">Lihat Dokumentasi</a>
+            </div>
+        </div>
+
+       <div class="row">
+           <div class="col-lg-3 col-md-6 col-6 py-2">
+               <a href="{{ asset('assets/images/anime-vibe-01.jpg') }}" class="image-link">
+                   <img src="{{ asset('assets/images/anime-vibe-01.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
+               </a>
+           </div>
+
+           <div class="col-lg-3 col-md-6 col-6 py-2">
+               <a href="{{ asset('assets/images/anime-vibe-05.jpg') }}" class="image-link">
+                   <img src="{{ asset('assets/images/anime-vibe-05.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
+               </a>
+           </div>
+
+           <div class="col-lg-3 col-md-6 col-6 py-2">
+               <a href="{{ asset('assets/images/anime-vibe-03.jpg') }}" class="image-link">
+                   <img src="{{ asset('assets/images/anime-vibe-03.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
+               </a>
+           </div>
+
+           <div class="col-lg-3 col-md-6 col-6 py-2">
+               <a href="{{ asset('assets/images/anime-vibe-04.jpg') }}" class="image-link">
+                   <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
+               </a>
+           </div>
+       </div>
+    </div>
+</section>
+
+
+{{-- <section id="prestasi" class="py-5">
+    <div class="container py-5">
+        <div class="text-center">
+            <h3 class="fw-bold" data-aos="fade-down">Prestasi Organisasi</h3>
+        </div>
+        <img src="{{ asset('assets/images/anime-light-02.jpg') }}" alt="" class="img-fluid py-5" data-aos="flip-down">
+
+        <div class="text-center">
+            <a href="" class="btn btn-outline-danger" data-aos="fade-down">Lihat Prestasi Lain</a>
+        </div>
+    </div>
+</section> --}}
+
+{{-- Video --}}
 <section id="youtube_video" class="py-5">
     <div class="container py-5">
         <div class="header-berita text-center">
@@ -201,60 +342,28 @@
         </div>
     </div>
 </section>
-<!-- Video -->
 
-{{-- Foto --}}
-<section id="foto" class="section-foto parallax" data-aos="zoom-in-up">
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center mb-5">
-            <div>
-                <div class="stripe-putih"></div>
-                <h5 class="fw-bold text-white" data-aos="fade-down">Aktivitas Organisasi Kami</h5>
-            </div>
-            <div>
-                <!-- Memperbaiki atribut href dengan URL yang sesuai -->
-                <a href="/foto" class="btn btn-outline-light" data-aos="fade-down">Dokumentasi Lain</a>
-            </div>
-        </div>
-
-       <div class="row">
-           <div class="col-lg-3 col-md-6 col-6">
-               <a href="{{ asset('assets/images/anime-vibe-01.jpg') }}" class="image-link">
-                   <img src="{{ asset('assets/images/anime-vibe-01.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
-               </a>
-           </div>
-
-           <div class="col-lg-3 col-md-6 col-6">
-               <a href="{{ asset('assets/images/anime-vibe-05.jpg') }}" class="image-link">
-                   <img src="{{ asset('assets/images/anime-vibe-05.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
-               </a>
-           </div>
-
-           <div class="col-lg-3 col-md-6 col-6">
-               <a href="{{ asset('assets/images/anime-vibe-03.jpg') }}" class="image-link">
-                   <img src="{{ asset('assets/images/anime-vibe-03.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
-               </a>
-           </div>
-
-           <div class="col-lg-3 col-md-6 col-6">
-               <a href="{{ asset('assets/images/anime-vibe-04.jpg') }}" class="image-link">
-                   <img src="{{ asset('assets/images/anime-vibe-04.jpg') }}" alt="" class="img-fluid img-outline-prestasi" data-aos="flip-down">
-               </a>
-           </div>
-       </div>
-    </div>
-</section>
-
-
-<section id="prestasi" class="py-5">
+{{-- Kritik dan Saran --}}
+<section id="join" class="py-5">
     <div class="container py-5">
-        <div class="text-center">
-            <h3 class="fw-bold" data-aos="fade-down">Prestasi Organisasi</h3>
-        </div>
-        <img src="{{ asset('assets/images/anime-light-02.jpg') }}" alt="" class="img-fluid py-5" data-aos="flip-down">
-
-        <div class="text-center">
-            <a href="" class="btn btn-outline-danger" data-aos="fade-down">Lihat Prestasi Lain</a>
+        {{-- <div class="header-berita text-center">
+            <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
+        </div> --}}
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-3" data-aos="fade-down">
+                    <div class="stripe me-2"></div>
+                    <h5>Kritik dan Saran</h5>
+                </div>
+                <h1 class="fw-bold mb-2" data-aos="fade-down">Berikan Kritik atau Saranmu untuk Kami!</h1>
+                <p class="mb-3" data-aos="fade-down">Kritik atau Saranmu pasti akan membantu kami untuk semakin berkembang. Terima Kasih.</p>
+                <button class="btn btn-outline-danger" data-aos="fade-down">
+                    Form Kritik dan Saran
+                </button>
+            </div>
+            <div class="col-lg-6 py-3">
+                <img src="{{ asset('assets/images/main-banner-1.jpg') }}" alt="" class="img-fluid img-outline-berita ml-auto" data-aos="flip-down">
+            </div>
         </div>
     </div>
 </section>
