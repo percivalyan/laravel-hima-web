@@ -30,16 +30,24 @@
                     <a class="nav-link active" href="#">Kontak</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <button class="btn btn-danger" data-aos="fade-up" data-aos-anchor-placement="top-center">Login</button>
-            </form>
+            <div class="d-flex">
+                {{-- <button class="btn btn-danger" data-aos="fade-up" data-aos-anchor-placement="top-center">Login</button> --}}
+                @auth
+                    <form action="/logout" method="POST">
+                        @csrf
+                        <button type="submit" class="btn btn-warning">Logout</button>
+                    </form>
+                @else
+                    <button class="btn btn-danger">Login</button>
+                @endauth
+            </div>
         </div>
     </div>
 </nav>
 <!-- Navbar -->
 
 <!-- Navbar untuk mode selain desktop -->
-<nav class="navbar-mobile navbar-dark py-3 fixed-top bg-danger" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+<nav class="navbar-mobile navbar-dark shadow py-3 fixed-top bg-danger" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
     <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentMobile" aria-controls="navbarSupportedContentMobile" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -65,9 +73,16 @@
                     <a class="nav-link active" href="#">Kontak</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <button class="btn btn-danger" data-aos="fade-down">Login</button>
-            </form>
+            <div class="d-flex">
+                @auth
+                    <form action="/logout" method="POST">
+                        @csrf
+                        <button type="submit" class="btn btn-warning">Logout</button>
+                    </form>
+                @else
+                    <button class="btn btn-danger">Login</button>
+                @endauth
+            </div>
         </div>
     </div>
 </nav>
