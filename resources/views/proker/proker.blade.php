@@ -218,7 +218,751 @@
 
         <section>
             <div align="center" class="py-5">
+                <h2>Program Kerja Departemen BPH</h2>
+            </div>
+
+            <div class="bg-light py-3 service-18">
+                <div class="container">
+                    <!-- row  -->
+                    <div class="row wrap-service-18">
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img1.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            B
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img2.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            G
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img3.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            B
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img4.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            G
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mt-4 text-center">
+                            <a
+                                class="btn btn-success-gradiant btn-md border-0 text-white"
+                                href="#f18"
+                                ><span>View Details</span></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section>
+            <div align="center" class="py-5">
                 <h2>Program Kerja Departemen MINFO</h2>
+            </div>
+
+            <div class="bg-light py-3 service-18">
+                <div class="container">
+                    <!-- row  -->
+                    <div class="row wrap-service-18">
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img1.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            B
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img2.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            G
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img3.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            B
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img4.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            G
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mt-4 text-center">
+                            <a
+                                class="btn btn-success-gradiant btn-md border-0 text-white"
+                                href="#f18"
+                                ><span>View Details</span></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section>
+            <div align="center" class="py-5">
+                <h2>Program Kerja Departemen HUMAS</h2>
+            </div>
+
+            <div class="bg-light py-3 service-18">
+                <div class="container">
+                    <!-- row  -->
+                    <div class="row wrap-service-18">
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img1.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            B
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img2.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            G
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img3.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            B
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img4.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            G
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mt-4 text-center">
+                            <a
+                                class="btn btn-success-gradiant btn-md border-0 text-white"
+                                href="#f18"
+                                ><span>View Details</span></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <section>
+            <div align="center" class="py-5">
+                <h2>Program Kerja Departemen RISTEK</h2>
+            </div>
+
+            <div class="bg-light py-3 service-18">
+                <div class="container">
+                    <!-- row  -->
+                    <div class="row wrap-service-18">
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img1.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            B
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img2.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            G
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img3.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            B
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                        <!-- Column  -->
+                        <div class="col-lg-6">
+                            <!-- card  -->
+                            <div class="card border-0 mb-4">
+                                <div class="row no-gutters">
+                                    <div
+                                        class="col-md-5 icon-position rounded-left"
+                                        style="
+                                            background-image: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature13/img4.jpg);
+                                        "
+                                    >
+                                        <div
+                                            class="icon-round bg-success-gradiant text-white display-5"
+                                        >
+                                            G
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body ml-0 ml-md-3">
+                                            <h6 class="font-weight-medium">
+                                                Get Powerful Results with
+                                                WrapKit
+                                            </h6>
+                                            <p>
+                                                You can relay on our amazing
+                                                features list and also our
+                                                customer services will be great
+                                                experience.
+                                            </p>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="linking text-underline"
+                                                >Lets Talk
+                                                <i class="ti-arrow-right"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column  -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mt-4 text-center">
+                            <a
+                                class="btn btn-success-gradiant btn-md border-0 text-white"
+                                href="#f18"
+                                ><span>View Details</span></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section>
+            <div align="center" class="py-5">
+                <h2>Program Kerja Departemen MIKAT</h2>
             </div>
 
             <div class="bg-light py-3 service-18">

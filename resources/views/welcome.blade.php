@@ -98,8 +98,8 @@
             <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
         </div> --}}
         <div class="row d-flex align-items-center">
-            <div class="col-lg-6 py-3">
-                <img src="{{ asset('assets/images/main-banner.jpg') }}" alt="" class="img-fluid img-outline-berita ml-auto " data-aos="flip-down" style="height: 500px; width: auto; margin-left: 100px">
+            <div class="about-gambar col-lg-6 py-3">
+                <img src="{{ asset('assets/images/main-banner.jpg') }}" alt="" class="img-fluid img-outline-berita ml-auto " data-aos="flip-down" style="height: 500px; width: auto;">
             </div>
             <div class="col-lg-6">
                 <div class="d-flex align-items-center mb-3">

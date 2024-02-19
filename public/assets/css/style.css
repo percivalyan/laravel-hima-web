@@ -100,9 +100,9 @@ body {
         font-size: 22px;
         font-weight: 600;
     }
-    .row.d-flex.align-items-center .col-lg-6.py-3 img {
+    /* .row.d-flex.align-items-center .col-lg-6.py-3 img {
         display: none;
-    }
+    } */
 }
 
 /* Respomsive Layar Kecil 350 */
@@ -111,9 +111,9 @@ body {
         font-size: 30px;
         font-weight: 600;
     }
-    .row.d-flex.align-items-center .col-lg-6.py-3 img {
+    /* .row.d-flex.align-items-center .col-lg-6.py-3 img {
         display: none;
-    }
+    } */
 }
 
 /* Respomsive Layar Kecil 400 */
@@ -122,9 +122,9 @@ body {
         font-size: 40px;
         font-weight: 600;
     }
-    .row.d-flex.align-items-center .col-lg-6.py-3 img {
+    /* .row.d-flex.align-items-center .col-lg-6.py-3 img {
         display: none;
-    }
+    } */
 }
 
 /* Respomsive Layar Kecil 550*/
@@ -132,9 +132,6 @@ body {
     .hero-text {
         font-size: 45px;
         font-weight: 600;
-    }
-    .row.d-flex.align-items-center .col-lg-6.py-3 img {
-        display: none;
     }
 }
 
@@ -310,4 +307,20 @@ body {
     content: "✔";
     margin-right: 10px;
     color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-gambar {
+        display: none;
+    }
+}
+
+.about-gambar {
+    text-align: center; /* Untuk mengatur gambar ke tengah */
+}
+
+.about-gambar img {
+    margin-left: auto; /* Mengatur margin kiri otomatis */
+    margin-right: auto; /* Mengatur margin kanan otomatis */
+    display: block; /* Memastikan gambar ditampilkan sebagai blok */
 }
