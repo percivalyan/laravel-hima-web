@@ -39,3 +39,8 @@ Route::post('/login', [AuthController::class, 'authenticate']);
 Route::post('/logout', [AuthController::class, 'logout']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
+
+// Foto
+Route::get('/proker', function () {
+    return view('proker.proker');
+});

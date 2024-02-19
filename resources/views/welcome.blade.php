@@ -2,13 +2,24 @@
 
 @section('content')
 <section id="hero" class="px-0">
-    <div class=" container text-center text-white">
+    <div class=" container text-left text-white">
         <div class="hero-title" data-aos="fade-up">
-            <div class="hero-text">
-                Selamat Datang <br> Di Website Himpunan Mahasiswa <br> Teknik Informatika Universitas Pamulang
+
+            <h5>Himpunan Mahasiswa Teknik Informatika Universitas Pamulang</h5><br>
+                {{-- <div class="hero-text">
+                    Selamat Datang <br> Di Website Himpunan Mahasiswa <br> Teknik Informatika Universitas Pamulang
+                </div> --}}
+            <div class="container">
+                <div class="row">
+                <div class="col border-start border-4 border-light">
+                    <h1>Selamat Datang</h1>
+                    <h1>Di Website <strong>HIMTIF</strong></h1>
+                </div>
             </div>
-            <h6>Web dokumentasi kegiatan himpunan mahasiswa dalam lingkungan kampus</h6><br>
+
         </div>
+        <br>
+         <h6>Web dokumentasi kegiatan himpunan mahasiswa dalam lingkungan kampus</h6>
     </div>
 </section>
 
@@ -80,8 +91,52 @@
     </section> -->
 <!-- Card -->
 
+{{-- About --}}
+<section id="about" class="py-3">
+    <div class="container py-5" data-aos="fade-down">
+        {{-- <div class="header-berita text-center">
+            <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
+        </div> --}}
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 py-3">
+                <img src="{{ asset('assets/images/main-banner.jpg') }}" alt="" class="img-fluid img-outline-berita ml-auto " data-aos="flip-down" style="height: 500px; width: auto; margin-left: 100px">
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="stripe me-2"></div>
+                    <h5>Tentang Kami</h5>
+                </div>
+                <h2 class="fw-bold mb-2" data-aos="fade-down">Himpunan Teknik Informatika</h2>
+                <h2 class="fw-bold mb-2" data-aos="fade-down">Universitas Pamulang</h2>
+                <p class="mb-3" data-aos="fade-down" style="text-align: justify;">
+                    Himpunan Mahasiswa Teknik Informatika (HIMTIF) adalah organisasi yang beranggotakan mahasiswa program studi Teknik Informatika di sebuah perguruan tinggi. HIMTI bertujuan untuk menjadi wadah bagi mahasiswa dalam mengembangkan pengetahuan, keterampilan, serta memperluas jaringan sosial di bidang teknologi informasi.
+
+                <p class="mb-3" data-aos="fade-down" style="text-align: justify;">
+                   Melalui berbagai kegiatan seperti seminar, workshop, kompetisi, dan kegiatan sosial, HIMTI berupaya meningkatkan kualitas dan minat mahasiswa dalam bidang teknologi informasi serta memfasilitasi pertukaran ide dan pengalaman di antara anggotanya.
+                </p>
+
+                {{-- <div class="container">
+                    <ul class="list-unstyled">
+                        <li>Point 1</li>
+                        <li>Point 2</li>
+                        <li>Point 3</li>
+                        <li>Point 4</li>
+                        <li>Point 5</li>
+                    </ul>
+                </div> --}}
+                {{-- <button class="btn btn-outline-danger" data-aos="fade-down">
+                   Program Kerja Kami
+                </button> --}}
+
+                <a href="/proker" class="btn btn-outline-danger" data-aos="fade-down">Program Kerja Kami</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{-- About --}}
+
 <!-- News -->
-<section id="berita" class="py-5">
+<section id="berita" class="py-3">
     <div class="container py-4">
         <div class="header-berita text-center">
             <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
@@ -136,7 +191,8 @@
                     <a href="" class="text-decoration-none text-danger">Read All...</a>
                 </div>
             </div> 
-        <div class="footer text-center">
+
+        <div class="footer text-center py-3">
             <a href="/berita" class="btn btn-outline-danger" data-aos="fade-down">Berita Lainnya</a>
         </div>
     </div>
@@ -144,9 +200,9 @@
 <!-- News -->
 
 {{-- Alternative Card --}}
-<section id="card_departemen" class="py-5">
+<section id="card_departemen" class="py-3">
     <div class="header-berita text-center">
-        <h2 class="fw-bold py-5" data-aos="fade-down">Departemen Kami</h2>
+        <h2 class="fw-bold py-4" data-aos="fade-down">Departemen Kami</h2>
     </div>
     
     <div class="container" data-aos="zoom-in-up">
@@ -202,7 +258,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> <br>
 
     <div class="container" data-aos="zoom-in-up">
         <div class="row justify-content-center">
@@ -373,7 +429,7 @@
 <!-- Video -->
 
 {{-- Foto --}}
-<section id="foto" class="section-foto parallax" style="margin-top: 100px" data-aos="zoom-in-up">
+<section id="foto" class="section-foto parallax" style="margin-top: 100px" data-aos="zoom-in-up" class="py-3">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-5">
             <div>
@@ -429,8 +485,8 @@
 </section> --}}
 
 {{-- Video --}}
-<section id="youtube_video" class="py-5">
-    <div class="container py-5 overflow-x">
+<section id="youtube_video" class="py-3">
+    <div class="container py-4 overflow-x">
         <div class="header-berita text-center">
             <h2 class="fw-bold" data-aos="fade-down">Video Kegiatan</h2>
         </div>
@@ -457,7 +513,7 @@
 
 
 {{-- Kritik dan Saran --}}
-<section id="join" class="py-5">
+<section id="join" class="py-3">
     <div class="container py-5">
         {{-- <div class="header-berita text-center">
             <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>

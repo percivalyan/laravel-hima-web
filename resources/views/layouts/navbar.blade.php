@@ -21,7 +21,7 @@
                     <a class="nav-link active" href="#">Departemen</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">Aritkel</a>
+                    <a class="nav-link active" href="#">Artikel</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <a class="nav-link active" href="#">Kegiatan</a>
