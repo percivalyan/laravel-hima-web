@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg py-3 fixed-top bg-white shadow {{ Request::segment(1) == '' ? '' : 'bg-white shadow'}}">
+<nav class="navbar navbar-expand-lg py-3 fixed-top {{ Request::segment(1) == '' ? '' : 'bg-white shadow'}}">
     {{-- from "bg-white shadow" --}}
     {{-- navbar-dark --}}
     <div class="container">
@@ -12,19 +12,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">Profile</a>
+                    <a class="nav-link active" href="#">About</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">Berita</a>
+                    <a class="nav-link active" href="#">Departemen</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">Prestasi</a>
+                    <a class="nav-link active" href="#">Aritkel</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">Gallery</a>
+                    <a class="nav-link active" href="#">Kegiatan</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <a class="nav-link active" href="#">Kontak</a>

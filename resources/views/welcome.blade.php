@@ -13,7 +13,7 @@
 </section>
 
 <!-- Card -->
-<section id="program" style="margin-top: -45px">
+{{-- <section id="program" style="margin-top: -45px">
     <div class="container col-xxl-9">
         <div class="row justify-content-center">
             <div class="col-lg-3 col-md-6 col" data-aos="zoom-in-up">
@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <!-- <section id="program" style="margin-top: 20px">
         <div class="container">
@@ -89,45 +89,53 @@
 
         <div class="row py-3">
             <!-- News #1 -->
+            <div class="row justify-content-center">
+                    <!-- Teks di sebelah kiri gambar -->
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <img src="{{ asset('assets/images/banner-3.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                        {{-- <div class="konten-berita">
+                        </div> --}}
+                    </div>
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <p class="mb-3 text-secondary">01/02/2024</p>
+                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
+                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Diagram with Python in Google Colab</p>
+                        {{-- <p class="text-secondary">#pythonprogramming</p> --}}
+                        <a href="" class="text-decoration-none text-danger">Read All...</a>
+                    </div>
+            </div> 
 
-            <div class="col-lg-4" data-aos="flip-down">
-                <img src="{{ asset('assets/images/banner-3.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
-                <div class="konten-berita">
-                    <p class="mb-3 text-secondary">01/02/2024</p>
-                    <h4 class="fw-bold mb-3">How to Create Diagram with Python</h4>
-                    <p class="text-secondary">#pythonprogramming</p>
-                    <a href="" class="text-docoration-none text-danger">Read All...</a>
+             <div class="row justify-content-center" style="margin-top: 10px">
+                    <!-- Teks di sebelah kiri gambar -->
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <img src="{{ asset('assets/images/anime-light-02.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                        {{-- <div class="konten-berita">
+                        </div> --}}
+                    </div>
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <p class="mb-3 text-secondary">01/02/2024</p>
+                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
+                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Online Shop</p>
+                    {{-- <p class="text-secondary">#pythonprogramming</p> --}}
+                    <a href="" class="text-decoration-none text-danger">Read All...</a>
                 </div>
-                <!-- Baris antar berita, terlihat jika pakai HP -->
-                <br>
-            </div>
+            </div> 
 
-            <!-- News #2 -->
-            <div class="col-lg-4" data-aos="flip-down">
-                <img src="{{ asset('assets/images/banner-2-anime.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
-                <div class="konten-berita">
-                    <p class="mb-3 text-secondary">02/02/2024</p>
-                    <h4 class="fw-bold mb-3">Machine Learning and Android Programming</h4>
-                    <p class="text-secondary">#machinelearning #android</p>
-                    <a href="" class="text-docoration-none text-danger">Read All...</a>
+             <div class="row justify-content-center" style="margin-top: 10px">
+                    <!-- Teks di sebelah kiri gambar -->
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <img src="{{ asset('assets/images/banner-1.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                        {{-- <div class="konten-berita">
+                        </div> --}}
+                    </div>
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <p class="mb-3 text-secondary">01/02/2024</p>
+                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
+                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Flowchart</p>
+                    {{-- <p class="text-secondary">#pythonprogramming</p> --}}
+                    <a href="" class="text-decoration-none text-danger">Read All...</a>
                 </div>
-                <!-- Baris antar berita, terlihat jika pakai HP -->
-                <br>
-            </div>
-
-            <!-- News #3 -->
-            <div class="col-lg-4" data-aos="flip-down">
-                <img src="{{ asset('assets/images/banner-1.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
-                <div class="konten-berita">
-                    <p class="mb-3 text-secondary">03/02/2024</p>
-                    <h4 class="fw-bold mb-3">How to Create a Responsive Website with Laravel</h4>
-                    <p class="text-secondary">#laravel #responsive</p>
-                    <a href="" class="text-docoration-none text-danger">Read All...</a>
-                </div>
-                <!-- Baris antar berita, terlihat jika pakai HP -->
-                <!-- <br> -->
-            </div>
-        </div>
+            </div> 
         <div class="footer text-center">
             <a href="/berita" class="btn btn-outline-danger" data-aos="fade-down">Berita Lainnya</a>
         </div>
@@ -135,8 +143,111 @@
 </section>
 <!-- News -->
 
+{{-- Alternative Card --}}
+<section id="card_departemen" class="py-5">
+    <div class="header-berita text-center">
+        <h2 class="fw-bold py-5" data-aos="fade-down">Departemen Kami</h2>
+    </div>
+    
+    <div class="container" data-aos="zoom-in-up">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
+                <div class="profile-card-4 text-center">
+                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <div class="profile-content">
+                        {{-- <div class="profile-name">
+                            John Doe
+                            <p>@johndoedesigner</p>
+                        </div> --}}
+                        <div class="profile-description">
+                            <h4>Departemen</h4>
+                            <h4>Riset dan Teknologi</h4>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
+                <div class="profile-card-4 text-center">
+                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <div class="profile-content">
+                        {{-- <div class="profile-name">
+                            John Doe
+                            <p>@johndoedesigner</p>
+                        </div> --}}
+                        <div class="profile-description">
+                            <h4>Departemen</h4>
+                            <h4>Riset dan Teknologi</h4>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
+                <div class="profile-card-4 text-center">
+                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <div class="profile-content">
+                        {{-- <div class="profile-name">
+                            John Doe
+                            <p>@johndoedesigner</p>
+                        </div> --}}
+                        <div class="profile-description">
+                            <h4>Departemen</h4>
+                            <h4>Riset dan Teknologi</h4>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" data-aos="zoom-in-up">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
+                <div class="profile-card-4 text-center">
+                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <div class="profile-content">
+                        {{-- <div class="profile-name">
+                            John Doe
+                            <p>@johndoedesigner</p>
+                        </div> --}}
+                        <div class="profile-description">
+                            <h4>Departemen</h4>
+                            <h4>Riset dan Teknologi</h4>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <<div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
+                <div class="profile-card-4 text-center">
+                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <div class="profile-content">
+                        {{-- <div class="profile-name">
+                            John Doe
+                            <p>@johndoedesigner</p>
+                        </div> --}}
+                        <div class="profile-description">
+                            <h4>Departemen</h4>
+                            <h4>Riset dan Teknologi</h4>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
 <!-- Card -->
-<section id="program" class="py-5">
+{{-- <section id="program" class="py-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="header-berita text-center">
@@ -144,7 +255,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-up">
                 <div class="bg-white rounded-3 shadow p-3 mb-2 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{ asset('assets/icons/cal.png') }}" height="55" width="55" alt="" style="margin-bottom: 10px;">
+                    <img src="{{ asset('assets/icons/ristek.jpg') }}" height="90" width="90" alt="" style="margin-bottom: 10px;">
                     <div style="text-align: center;">
                         <p style="margin: 0; font-size: 18px;">HIMTIF FANTASTIC</p>
                         <p style="font-size: 12px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet distinctio quia ducimus maxime tempora accusamus, qui quisquam nisi sunt reprehenderit ratione porro doloribus labore! Molestiae rerum minus magnam nesciunt atque.</p>
@@ -193,7 +304,7 @@
             <!-- Tambahkan satu kolom lagi di sini -->
         </div>
     </div>
-</section>
+</section> --}}
 
 
 <!-- Register -->
@@ -222,6 +333,7 @@
 </section> --}}
 
 <!-- Register -->
+
 <!-- Video -->
 <!-- <section id="video" class="py-5">
         <div class="container py-5">
@@ -318,30 +430,31 @@
 
 {{-- Video --}}
 <section id="youtube_video" class="py-5">
-    <div class="container py-5">
+    <div class="container py-5 overflow-x">
         <div class="header-berita text-center">
-            <h2 class="fw-bold" data-aos="fade-down">Video Kegiatan Organisasi Kami</h2>
+            <h2 class="fw-bold" data-aos="fade-down">Video Kegiatan</h2>
         </div>
 
-        <div class="row py-5" data-aos="flip-down">
+        <div class="row py-5 justify-content-center" data-aos="flip-down">
             <div class="row">
-                <div class="col-lg-4">
-                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/DST5W8I-EjY?si=gCC9HDE3pqHAdKeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="col-lg-4 justify-content-center">
+                    <iframe width="100%" height="190px" src="https://www.youtube.com/embed/DST5W8I-EjY?si=gCC9HDE3pqHAdKeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-4">
-                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/9S4IeXEFJXY?si=eHOvmjK6hAS6BuXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="col-lg-4 justify-content-center">
+                    <iframe width="100%" height="190px" src="https://www.youtube.com/embed/9S4IeXEFJXY?si=eHOvmjK6hAS6BuXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-4">
-                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/fkU7TEy6mTw?si=8OfW1vG4HptvoLYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="col-lg-4 justify-content-center">
+                    <iframe width="100%" height="190px" src="https://www.youtube.com/embed/fkU7TEy6mTw?si=8OfW1vG4HptvoLYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
 
-        <div class="footer-berita text-center">
+        <div class="footer-berita text-center justify-content-center">
             <a href="https://www.youtube.com/@himtifunpam9658" class="btn btn-outline-danger" data-aos="fade-down">Lihat Video Lain di Kanal Kami</a>
         </div>
     </div>
 </section>
+
 
 {{-- Kritik dan Saran --}}
 <section id="join" class="py-5">
