@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg py-3 fixed-top bg-white shadow {{ Request::segment(1) == '' ? '' : 'bg-white shadow'}}">
+<nav id="navbar_dekstop" class="navbar navbar-expand-lg py-3 fixed-top bg-white shadow {{ Request::segment(1) == '' ? '' : 'bg-white shadow'}}">
     {{-- from "bg-white shadow" --}}
     {{-- navbar-dark --}}
     <div class="container">
@@ -24,7 +24,7 @@
                     <a class="nav-link active" href="#berita">Artikel</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">Kegiatan</a>
+                    <a class="nav-link active" href="#gallery">Kegiatan</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <a class="nav-link active" href="#">Kontak</a>
@@ -47,7 +47,7 @@
 <!-- Navbar -->
 
 <!-- Navbar untuk mode selain desktop -->
-<nav class="navbar-mobile navbar-dark shadow py-3 fixed-top bg-danger" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+<nav id="navbar_mobile" class="navbar-mobile navbar-dark shadow py-3 fixed-top bg-danger" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
     <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentMobile" aria-controls="navbarSupportedContentMobile" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

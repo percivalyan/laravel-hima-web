@@ -92,7 +92,7 @@
 <!-- Card -->
 
 {{-- About --}}
-<section id="about" class="py-3">
+<section id="about" class="py-5">
     <div class="container py-5" data-aos="fade-down">
         {{-- <div class="header-berita text-center">
             <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
@@ -135,86 +135,18 @@
 </section>
 {{-- About --}}
 
-<!-- News -->
-<section id="berita" class="py-3">
-    <div class="container py-4">
-        <div class="header-berita text-center">
-            <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
-        </div>
-
-        <div class="row py-3">
-            <!-- News #1 -->
-            <div class="row justify-content-center">
-                    <!-- Teks di sebelah kiri gambar -->
-                    <div class="col-lg-4" data-aos="flip-down">
-                        <img src="{{ asset('assets/images/banner-3.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
-                        {{-- <div class="konten-berita">
-                        </div> --}}
-                    </div>
-                    <div class="col-lg-4" data-aos="flip-down">
-                        <p class="mb-3 text-secondary">01/02/2024</p>
-                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
-                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Diagram with Python in Google Colab</p>
-                        {{-- <p class="text-secondary">#pythonprogramming</p> --}}
-                        <a href="" class="text-decoration-none text-danger">Read All...</a>
-                    </div>
-            </div> 
-
-             <div class="row justify-content-center" style="margin-top: 10px">
-                    <!-- Teks di sebelah kiri gambar -->
-                    <div class="col-lg-4" data-aos="flip-down">
-                        <img src="{{ asset('assets/images/anime-light-02.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
-                        {{-- <div class="konten-berita">
-                        </div> --}}
-                    </div>
-                    <div class="col-lg-4" data-aos="flip-down">
-                        <p class="mb-3 text-secondary">01/02/2024</p>
-                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
-                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Online Shop</p>
-                    {{-- <p class="text-secondary">#pythonprogramming</p> --}}
-                    <a href="" class="text-decoration-none text-danger">Read All...</a>
-                </div>
-            </div> 
-
-             <div class="row justify-content-center" style="margin-top: 10px">
-                    <!-- Teks di sebelah kiri gambar -->
-                    <div class="col-lg-4" data-aos="flip-down">
-                        <img src="{{ asset('assets/images/banner-1.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
-                        {{-- <div class="konten-berita">
-                        </div> --}}
-                    </div>
-                    <div class="col-lg-4" data-aos="flip-down">
-                        <p class="mb-3 text-secondary">01/02/2024</p>
-                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
-                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Flowchart</p>
-                    {{-- <p class="text-secondary">#pythonprogramming</p> --}}
-                    <a href="" class="text-decoration-none text-danger">Read All...</a>
-                </div>
-            </div> 
-
-        <div class="footer text-center py-3">
-            <a href="/berita" class="btn btn-outline-danger" data-aos="fade-down">Berita Lainnya</a>
-        </div>
-    </div>
-</section>
-<!-- News -->
-
 {{-- Alternative Card --}}
-<section id="card_departemen" class="py-3">
+<section id="card_departemen" class="py-5">
     <div class="header-berita text-center">
-        <h2 class="fw-bold py-4" data-aos="fade-down">Departemen Kami</h2>
+        <h2 class="fw-bold py-5" data-aos="fade-down">Departemen Kami</h2>
     </div>
     
     <div class="container" data-aos="zoom-in-up">
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
-                <div class="profile-card-4 text-center">
+            <div class="col-lg-4 col-md-4">
+                <div class="profile-card-4 text-center" onclick="window.location.href='/bph';" style="cursor: pointer;">
                     <img src="https://dummyimage.com/500x250/000000/ffffff&text=Your+Department+(500x250)" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
                     <div class="profile-content">
-                        {{-- <div class="profile-name">
-                            John Doe
-                            <p>@johndoedesigner</p>
-                        </div> --}}
                         <div class="profile-description">
                             <h4>Departemen</h4>
                             <h4>Riset dan Teknologi</h4>
@@ -223,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
                 <div class="profile-card-4 text-center">
                     <img src="https://dummyimage.com/500x250/000000/ffffff&text=Your+Department+(500x250)" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
@@ -279,7 +211,7 @@
                 </div>
             </div>
             
-            <<div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
+            <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
                 <div class="profile-card-4 text-center">
                     <img src="https://dummyimage.com/500x250/000000/ffffff&text=Your+Department+(500x250)" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
                     <div class="profile-content">
@@ -300,7 +232,152 @@
     </div>
 </section>
 
+{{-- Departement Card --}}
 
+
+<!-- News -->
+<section id="berita" class="py-5">
+    <div class="container py-5">
+        <div class="header-berita text-center">
+            <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>
+        </div>
+
+        <div class="row py-5">
+            <!-- News #1 -->
+            <div class="row justify-content-center">
+                    <!-- Teks di sebelah kiri gambar -->
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <img src="{{ asset('assets/images/banner-3.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                        {{-- <div class="konten-berita">
+                        </div> --}}
+                    </div>
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <p class="mb-3 text-secondary">01/02/2024</p>
+                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
+                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Diagram with Python in Google Colab</p>
+                        {{-- <p class="text-secondary">#pythonprogramming</p> --}}
+                        <a href="" class="text-decoration-none text-danger">Read All...</a>
+                    </div>
+            </div> 
+
+             <div class="row justify-content-center" style="margin-top: 10px">
+                    <!-- Teks di sebelah kiri gambar -->
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <img src="{{ asset('assets/images/anime-light-02.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                        {{-- <div class="konten-berita">
+                        </div> --}}
+                    </div>
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <p class="mb-3 text-secondary">01/02/2024</p>
+                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
+                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Online Shop</p>
+                    {{-- <p class="text-secondary">#pythonprogramming</p> --}}
+                    <a href="" class="text-decoration-none text-danger">Read All...</a>
+                </div>
+            </div> 
+
+             <div class="row justify-content-center" style="margin-top: 10px">
+                    <!-- Teks di sebelah kiri gambar -->
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <img src="{{ asset('assets/images/banner-1.jpg') }}" class="img-fluid mb-3 img-outline-berita" alt="">
+                        {{-- <div class="konten-berita">
+                        </div> --}}
+                    </div>
+                    <div class="col-lg-4" data-aos="flip-down">
+                        <p class="mb-3 text-secondary">01/02/2024</p>
+                        {{-- <h4 class="fw-bold mb-3" >How to Create Diagram with Python in Google Colab</h4> --}}
+                        <p class="fw-bold mb-3" style="font-size: 24px">How to Create Flowchart</p>
+                    {{-- <p class="text-secondary">#pythonprogramming</p> --}}
+                    <a href="" class="text-decoration-none text-danger">Read All...</a>
+                </div>
+            </div> 
+
+        <div class="footer text-center py-5">
+            <a href="/berita" class="btn btn-outline-danger" data-aos="fade-down">Berita Lainnya</a>
+        </div>
+    </div>
+</section>
+<!-- News -->
+
+{{-- Album --}}
+<section id="gallery" class="py-5">
+    <div class="container">
+        <div class="header-berita text-center py-5">
+            <h2 class="fw-bold" data-aos="fade-down">Gallery Kegiatan Organisasi Kami</h2>
+        </div>
+        <!-- Gallery -->
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+                />
+
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Wintry Mountain Landscape"
+                />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Mountains in the Clouds"
+                />
+
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+                />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Waves at Sea"
+                />
+
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Yosemite National Park"
+                />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+                />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Waves at Sea"
+                />
+            </div>
+
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+                />
+            </div>
+
+        </div>
+        <!-- Gallery -->
+         <a href="/proker" class="btn btn-outline-danger" data-aos="fade-down">Lihat Gallery Kami Lainnya</a>
+    </div>
+</section>
 
 <!-- Card -->
 {{-- <section id="program" class="py-5">
@@ -429,7 +506,7 @@
 <!-- Video -->
 
 {{-- Foto --}}
-<section id="foto" class="section-foto parallax" style="margin-top: 100px" data-aos="zoom-in-up" class="py-3">
+{{-- <section id="foto" class="section-foto parallax" style="margin-top: 100px" data-aos="zoom-in-up" class="py-3">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-5">
             <div>
@@ -468,7 +545,7 @@
            </div>
        </div>
     </div>
-</section>
+</section> --}}
 
 
 {{-- <section id="prestasi" class="py-5">
@@ -485,8 +562,8 @@
 </section> --}}
 
 {{-- Video --}}
-<section id="youtube_video" class="py-3">
-    <div class="container py-4 overflow-x">
+<section id="youtube_video" class="py-5">
+    <div class="container py-5 overflow-x">
         <div class="header-berita text-center">
             <h2 class="fw-bold" data-aos="fade-down">Video Kegiatan</h2>
         </div>
@@ -513,7 +590,7 @@
 
 
 {{-- Kritik dan Saran --}}
-<section id="join" class="py-3">
+<section id="join" class="py-5">
     <div class="container py-5">
         {{-- <div class="header-berita text-center">
             <h2 class="fw-bold" data-aos="fade-down">Berita Kegiatan Organisasi Kami</h2>

@@ -40,7 +40,12 @@ Route::post('/logout', [AuthController::class, 'logout']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
 
-// Foto
+// Proker
 Route::get('/proker', function () {
     return view('proker.proker');
+});
+
+// Department - BPH
+Route::get('/bph', function () {
+    return view('department.bph');
 });
