@@ -97,18 +97,27 @@
 
     <script>
 
-            const navbar = document.querySelector(".fixed-top");
-        window.onscroll = () => {
-            if (window.scrollY > 50) {
+        //     const navbar = document.querySelector(".fixed-top");
+        // window.onscroll = () => {
+        //     if (window.scrollY > 50) {
 
-                navbar.classList.add("scroll-nav-active");
-                navbar.classList.add("text-nav-active");
-                navbar.classList.remove("navbar-dark");
-            } else {
-                navbar.classList.remove("scroll-nav-active");
-                navbar.classList.add("navbar-dark");
-            }
-        };
+        //         navbar.classList.add("scroll-nav-active");
+        //         navbar.classList.add("text-nav-active");
+        //         navbar.classList.remove("navbar-dark");
+        //     } else {
+        //         navbar.classList.remove("scroll-nav-active");
+        //         navbar.classList.add("navbar-dark");
+        //     }
+        // };
+
+         window.addEventListener("scroll", function() {
+        var navbar = document.querySelector(".navbar");
+        if (window.scrollY > 100) {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "block";
+        }
+    });
 
         AOS.init();
 
@@ -135,6 +144,18 @@
         $(document).ready(function(){
             $('.carousel').carousel();
         });
+
+
+// JavaScript for smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 
         
     </script>

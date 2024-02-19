@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg py-3 fixed-top {{ Request::segment(1) == '' ? '' : 'bg-white shadow'}}">
+<nav class="navbar navbar-expand-lg py-3 fixed-top bg-white shadow {{ Request::segment(1) == '' ? '' : 'bg-white shadow'}}">
     {{-- from "bg-white shadow" --}}
     {{-- navbar-dark --}}
     <div class="container">
@@ -15,13 +15,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">About</a>
+                    <a class="nav-link active" href="#about">About</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">Departemen</a>
+                    <a class="nav-link active" href="#card_departemen">Departemen</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <a class="nav-link active" href="#">Artikel</a>
+                    <a class="nav-link active" href="#berita">Artikel</a>
                 </li>
                 <li class="nav-item" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <a class="nav-link active" href="#">Kegiatan</a>

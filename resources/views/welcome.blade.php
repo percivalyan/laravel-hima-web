@@ -209,7 +209,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
                 <div class="profile-card-4 text-center">
-                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <img src="https://dummyimage.com/500x250/000000/ffffff&text=Your+Department+(500x250)" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
                     <div class="profile-content">
                         {{-- <div class="profile-name">
                             John Doe
@@ -226,7 +226,7 @@
             
             <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
                 <div class="profile-card-4 text-center">
-                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <img src="https://dummyimage.com/500x250/000000/ffffff&text=Your+Department+(500x250)" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
                     <div class="profile-content">
                         {{-- <div class="profile-name">
                             John Doe
@@ -243,7 +243,7 @@
             
             <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
                 <div class="profile-card-4 text-center">
-                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <img src="https://dummyimage.com/500x250/000000/ffffff&text=Your+Department+(500x250)" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
                     <div class="profile-content">
                         {{-- <div class="profile-name">
                             John Doe
@@ -264,7 +264,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
                 <div class="profile-card-4 text-center">
-                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <img src="https://dummyimage.com/500x250/000000/ffffff&text=Your+Department+(500x250)" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
                     <div class="profile-content">
                         {{-- <div class="profile-name">
                             John Doe
@@ -281,7 +281,7 @@
             
             <<div class="col-lg-4 col-md-4"> <!-- Mengubah col-lg-3 menjadi col-lg-4 dan col-md-6 menjadi col-md-4 -->
                 <div class="profile-card-4 text-center">
-                    <img src="{{ asset('assets/icons/ristek.jpg') }}" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
+                    <img src="https://dummyimage.com/500x250/000000/ffffff&text=Your+Department+(500x250)" class="img img-fluid img-responsive" alt="John Doe Profile Picture">
                     <div class="profile-content">
                         {{-- <div class="profile-name">
                             John Doe
