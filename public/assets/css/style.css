@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.overflow-x {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Pengaturan Tombol Warna Merah */
+.btn-danger {
+    background-color: red;
+    border-radius: 10px;
+    border-color: red;
+    padding: 6px 40px;
+    color: white;
+}
+/* Pengaturan Tombol Warna Merah */
+
+/* Pengaturan Tombol Outline Warna Merah Pada Bagian Menu Berita*/
+.btn-outline-danger {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: red;
+    padding: 6px 40px;
+    color: red;
+}
+/* Pengaturan Tombol Outline Warna Merah Pada Bagian Menu Berita*/
+
+/* Navbar */
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* Navbar */
+
+/* Menghilangkan Navbar ketika scroll ke bawah */
+.scroll-nav-active {
+    background-color: white;
+    /* border-bottom: 1px solid red; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+}
+
+.text-nav-active {
+    color: black;
+}
+/* Menghilangkan Navbar ketika scroll ke bawah */
+
+/* Navbar Khusus Mode selain Desktop*/
+@media (max-width: 991.98px) {
+    .navbar {
+        display: none !important; /* Menghilangkan navbar */
+    }
+}
+
+/* Gaya untuk navbar pada mode selain desktop */
+@media (min-width: 992px) {
+    .navbar-mobile {
+        display: none; /* Sembunyikan navbar mobile */
+    }
+}
+
+.navbar-mobile {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08); /* Ubah nilai sesuai preferensi Anda */
+}
+
+/* Navbar Khusus Mode selain Desktop*/
+
+#hero {
+    background-image: url("../../assets/images/unpam.jpg");
+    /* background-image: url("../../assets/images/anime-vibe-03.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.hidden-text-hero {
+    color: #ffffff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 400px) {
+    .hidden-text-hero {
+        display: none;
+    }
+}
+
+/* Pengaturan hero dalam mode selain desktop */
+@media only screen and (max-width: 991px) {
+    .hero-text {
+        margin-top: -80px;
+    }
+}
+/* Pengaturan hero dalam mode selain desktop */
+
+.hero-title {
+    padding-top: 250px;
+}
+
+.hero-text {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* Responsive Layar Kecil 200 */
+@media screen and (min-width: 200px) {
+    .hero-text {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    /* .row.d-flex.align-items-center .col-lg-6.py-3 img {
+        display: none;
+    } */
+}
+
+/* Responsive Layar Kecil 350 */
+@media screen and (min-width: 350px) {
+    .hero-text {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    /* .row.d-flex.align-items-center .col-lg-6.py-3 img {
+        display: none;
+    } */
+}
+
+/* Responsive Layar Kecil 400 */
+@media screen and (min-width: 400px) {
+    .hero-text {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    /* .row.d-flex.align-items-center .col-lg-6.py-3 img {
+        display: none;
+    } */
+}
+
+/* Responsive Layar Kecil 550*/
+@media screen and (min-width: 550px) {
+    .hero-text {
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
+
+/* Memberikan Efek Blur Pada Bagian Preview Berita */
+.img-outline-berita {
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3); /* Ukuran dan warna shadow */
+    border-radius: 10px; /* Atur sesuai dengan border-radius gambar */
+    overflow: hidden; /* Penting untuk memastikan shadow terpotong sesuai dengan border-radius */
+}
+
+.img-outline-berita img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Memberikan Efek Blur Pada Bagian Preview Berita */
+
+/* Departement */
+  /* Styling */
+  .profile-card-4 {
+    border: 1px solid #f0f0f0;
+    border-radius: 15px;
+    padding: 30px 20px;
+    transition: all 0.3s ease 0s;
+}
+.profile-card-4:hover {
+    border: 1px solid #007bff;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+/* Departement */
+
+.stripe {
+    height: 5px;
+    width: 20px;
+    background-color: red;
+}
+
+/* Pengaturan Video */
+/* #video{
+    background-image: url("../../assets/images/ab-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+} */
+/* Pengaturan Video */
+
+/* Paralax Background Bagian Prestasi*/
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url("../../assets/images/banner-3.jpg");
+}
+
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+}
+
+/* .btn-outline-white{
+    background-color: fixed;
+    border-radius: 10px;
+    border-color: #fff;
+    padding: 6px 40px;
+    color: #fff;
+} */
+/* Paralax Background Bagian Prestasi*/
+
+/* Memberikan Efek Blur Pada Bagian Preview Prestasi */
+.img-outline-prestasi {
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1); /* Ukuran dan warna shadow */
+    border-radius: 10px; /* Atur sesuai dengan border-radius gambar */
+    overflow: hidden; /* Penting untuk memastikan shadow terpotong sesuai dengan border-radius */
+}
+
+.img-outline-prestasi img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Memberikan Efek Blur Pada Bagian Preview Prestasi */
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Pengaturan Khsusus Berita */
+
+/* Light Card */
+.profile-card-4 {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.profile-card-4 img {
+    transition: all 0.25s linear;
+}
+
+.profile-card-4 .profile-content {
+    position: relative;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.profile-card-4 .profile-name {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.profile-card-4 .profile-name p {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.profile-card-4 .profile-description {
+    color: #777;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.profile-card-4 .profile-overview {
+    padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #777;
+}
+
+.profile-card-4 .profile-overview h4 {
+    color: #273751;
+    font-weight: bold;
+}
+
+.profile-card-4 .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    z-index: 0;
+    transform: skewY(3deg);
+}
+
+.profile-card-4:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+
+/* About */
+
+.list-unstyled li::before {
+    content: "✔";
+    margin-right: 10px;
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-gambar {
+        display: none;
+    }
+}
+
+.about-gambar {
+    text-align: center; /* Untuk mengatur gambar ke tengah */
+}
+
+.about-gambar img {
+    margin-left: auto; /* Mengatur margin kiri otomatis */
+    margin-right: auto; /* Mengatur margin kanan otomatis */
+    display: block; /* Memastikan gambar ditampilkan sebagai blok */
+}
+
+/* Album */
+.cover {
+    position: relative;
+    padding: 0px 30px;
+    margin-top: 100px;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.scroll-images {
+    position: relative;
+    width: 100%;
+    padding: 40px 0px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    height: 200px;
+    padding: 0px 15px;
+    margin: 1px 10px;
+    border: 1px solid #f1f1f1;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 15px 2px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 15px 2px rgb(0 0 0 / 10%);
+}
+
+.child img,
+.child > svg {
+    position: absolute;
+    margin-top: -195px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    background: #03a9f4;
+}
+
+.scroll-images::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaa;
+}
+
+.scroll-images::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* Mobile */
