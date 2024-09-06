@@ -4,7 +4,7 @@
     {{-- navbar-dark --}}
     <div class="container">
         <a class="navbar-brand" href="#" data-aos="fade-up" data-aos-anchor-placement="top-center">
-            <img src="{{ asset('assets/icons/icon.ico') }}" height="55" width="55" alt="">
+            <img src="{{ asset('navbar/image.png') }}" height="55" width="auto" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
